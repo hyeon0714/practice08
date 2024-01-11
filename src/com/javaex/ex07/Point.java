@@ -11,6 +11,19 @@ public class Point {
 	}
 
 	//equals() 메소드를 작성하세요.
-
+	public boolean equals(Object obj) {
+		Point a=(Point)obj;
+		boolean result;
+		if(this.x==a.x) {
+			result=true;
+		}else {
+			result=false;
+		}
+			
+		
+		
+		
+		return result;
+	}
 	
 }

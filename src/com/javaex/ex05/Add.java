@@ -1,14 +1,20 @@
 package com.javaex.ex05;
 
-public class Add {
+public class Add extends CalcApp {
     
     private int a;
     private int b;
     
+    
     public void setValue(int a, int b) {
+    	this.a=a;
+    	this.b=b;
     }
 
     public int calculate() {
+    	
+    	int result=a+b;
+    	return result;
     }
 
 }
