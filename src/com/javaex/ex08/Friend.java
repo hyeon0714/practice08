@@ -7,6 +7,9 @@ public class Friend {
 	private String school;
 	
 	public Friend(String name, String no, String school) {
+		this.name=name;
+		this.no=no;
+		this.school=school;
 		
 	}
 	
