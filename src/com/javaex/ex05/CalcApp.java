@@ -25,7 +25,7 @@ public class CalcApp {
     		
     		if(aa>=0) {
     			int no01=Integer.parseInt(ggo.substring(0, aa));
-    			int no02=Integer.parseInt(ggo.substring(aa));
+    			int no02=Integer.parseInt(ggo.substring(aa+1));
     			a.setValue(no01, no02);
     			System.out.print(">>");
     			System.out.println(a.calculate());
